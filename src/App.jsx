@@ -1,5 +1,7 @@
 
 import './App.css'
+import DaisyNav from './component/DaisyNav/DaisyNav'
+import NavBar from './component/NavBar/NavBar'
 
 function App() {
 
@@ -7,7 +9,8 @@ function App() {
     <>
 
       <h1>Vite + React</h1>
-
+      <NavBar></NavBar>
+      <DaisyNav></DaisyNav>
     </>
   )
 }
